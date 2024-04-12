@@ -1,0 +1,16 @@
+header {
+    background-color: rgba(108, 236, 129, 0.692);
+    height: 25px;
+}
+a {
+    color: rgb(52, 139, 1);
+    text-decoration: none;
+}
+    .menu {
+    display: flex;
+    gap:20px ;
+}
+
+    li{
+        list-style: none;
+    }
