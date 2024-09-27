@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #fff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #29384b;
+    --cor-de-fundo: #00030c;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.principal {
+    background-image: url('filme.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao {
+    background-color: rgb(36, 46, 138);
+    border-radius: 10%;
+    padding: 15px;
+    color: var(--branco-principal);
+    display: block;
+    text_decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+.container_aviso {
+    font-size: 20px;
+    color: var (var(--cinza-secundario))
+}
+.container_titulo {
+    font-size: 60px;
+    font-weight; 700;
+}
